@@ -1,0 +1,1772 @@
+/*
+col-3
+	flex: 0 0 25%;
+    max-width: 25%;
+
+col-4:
+	flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+
+col-5:
+	flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+
+col-6:
+	flex: 0 0 50%;
+    max-width: 50%;
+
+col-7:
+	flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+
+col-8:
+	flex: 0 0 66.666666%;
+    max-width: 66.666666%;
+
+col-9:
+	flex: 0 0 75%;
+    max-width: 75%;
+
+col-10:
+	flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+
+col-12:
+	flex: 0 0 100%;
+    max-width: 100%;
+
+
+*/
+
+/*icone navbar*/
+.navbar-toggler-icon {
+	background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=BFE100');
+}
+
+/*menu mobile desactivé*/
+.navbarMobile{
+	display: none;
+}
+
+
+
+
+
+/*----------------------------------------------------- +1450 -----------------------------------------------------*/
+@media (min-width: 1450px) {
+	/*INDEX*/
+	.carousel.pointer-event{
+		padding-top: 40px;
+	}
+}
+
+/*----------------------------------------------------- 1450 -----------------------------------------------------*/
+@media (max-width: 1450px) {
+	/*MENU*/
+	.divLogoHotelDMD{
+		flex: 0 0 50%;
+   	 	max-width: 50%;
+	}
+
+	.divMenu{
+		flex: 0 0 50%;
+    	max-width: 50%;	
+	}
+
+	/*INDEX*/
+	.carousel.pointer-event{
+		padding-top: 40px;
+	}
+}
+
+/*----------------------------------------------------- 1210 -----------------------------------------------------*/
+@media (max-width: 1210px) {
+	/*MENU*/
+	.logoHotelDMD{
+		width: 95px;
+	}
+
+	.divLogoHotelDMD{
+		flex: 0 0 41.666667%;
+    	max-width: 41.666667%;
+	}
+
+	.divMenu{
+		flex: 0 0 58.333333%;
+    	max-width: 58.333333%;
+	}
+
+	/*INDEX*/
+	.carousel-caption h3{
+		font-size: 1.5rem;
+	}
+
+	.carousel-caption p{
+		font-size: 0.8rem;
+	}
+
+	.carousel.pointer-event{
+		padding-top: 40px;
+	}
+
+}
+	
+/*----------------------------------------------------- 1034 -----------------------------------------------------*/
+@media (max-width: 1034px) {
+	/*MENU*/
+	.divLogoHotelDMD{
+		flex: 0 0 33.333333%;
+    	max-width: 33.333333%;
+	}
+
+	.divMenu{
+		flex: 0 0 66.666666%;
+   	 	max-width: 66.666666%;
+	}
+
+	/*INDEX*/
+	.carousel-caption{
+		padding-top: 5px;
+		font-size: 1.25rem;
+	}
+
+	.carousel-caption p{
+		margin-bottom: 0;
+		font-size: 0.7rem;
+	}
+
+	.carousel.pointer-event{
+		padding-top: 40px;
+	}
+
+	.btnReserverIndex {
+   		margin-top: 20px;
+    	margin-bottom: 20px;
+	}
+
+	.btn {
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+	    padding-left: 25px;
+	    padding-right: 25px;
+	    font-size: 1em;
+	}
+
+	.divTxtPresentationImgHotel{
+		display: block !important;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	    margin-bottom: 45px;	
+	}
+
+	.divTxtPresentation{
+		flex: 0 0 100%;
+    	max-width: 100%;
+	}
+
+	.divTxtPresentation h2{
+		font-size: 1.8em;
+	}
+
+	.divTxtPresentation p{
+		font-size: 1em;
+		margin-top: -10px;
+		margin-left: 20px;
+    	margin-right: 20px;
+	}
+
+	.divImgHotel{
+		flex: 0 0 100%;
+    	max-width: 100%;
+	}
+
+	.divImgHotel img{
+		width: 90%!important;
+    	margin: auto;
+    	padding-top: 20px;
+	}
+
+	/*SIGN UP*/
+	.divFormulaireInscription{
+		flex: 0 0 66.666666%;
+    	max-width: 66.666666%;
+	}
+
+	.divDejaCompte{
+		flex: 0 0 33.333333%;
+    	max-width: 33.333333%;
+	}
+
+	/*RESERVER*/
+
+	.divFormulaireReservationRecapActualise form{
+		flex: 0 0 58.333333%;
+    	max-width: 58.333333%;
+	}
+
+	/*RECAP RESERVATION*/
+	.divInfoReservationDateArriveDepart, .divInfoReservationTypeChambreNbrPersonne{
+		flex: 0 0 50%;
+    	max-width: 50%;
+	}
+
+	/*MON COMPTE*/
+	.divHistoriqueReservation {
+		margin-bottom: 50px;
+	}
+}
+
+/*----------------------------------------------------- 990 -----------------------------------------------------*/
+@media (max-width: 990px) {
+	/*MENU*/
+	.navbar-expand-lg .navbar-nav {
+    	-ms-flex-direction: row;
+    	flex-direction: row;
+	}
+
+	/*INDEX*/
+	.carousel.pointer-event{
+		padding-top: 40px;
+	}
+}
+
+/*----------------------------------------------------- 910 -----------------------------------------------------*/
+@media (max-width: 910px) {
+	/*MENU*/
+	.logoHotelDMD{
+		width: 85px;
+	}
+
+	.divLogoHotelDMD{
+		flex: 0 0 25%;
+   		max-width: 25%;
+	}
+
+	.divMenu{
+		flex: 0 0 75%;
+    	max-width: 75%;
+	}
+
+	/*INDEX*/
+	.carousel.pointer-event{
+		padding-top: 40px;
+	}
+}
+
+/*----------------------------------------------------- 805 -----------------------------------------------------*/
+@media (max-width: 805px) {
+	/*MENU*/
+	.logoHotelDMD{
+		width: 75px;
+	}
+
+	/*INDEX*/
+	.carousel-caption{
+		padding-top: 5px;
+	}
+
+	.carousel-caption p{
+		margin-bottom: 0;
+	}
+
+	.carousel.pointer-event{
+		padding-top: 40px;
+	}
+}
+
+/*----------------------------------------------------- 768 -----------------------------------------------------*/
+@media (max-width: 768px) {
+	/*MENU*/
+	.divNavbar{
+		display: none;
+	}
+
+	.navbarMobile{
+		display: flex;
+	}
+
+	.navbar{
+		padding: 0;
+	}
+
+	.navbar-nav{
+		text-align: right;
+    	margin-right: 30px;
+		margin-bottom: 10px;
+	}
+
+	.navbar-brand {
+		font-size: 0.8em;
+	}
+
+	.navbar-light .navbar-toggler{
+		border-color: #FBE07A;
+		margin-right: 30px;
+	}
+
+	.logoHotelDMD{
+		width: 65px;
+	}
+
+	.navbar-collapse {
+    	font-size: 0.8em;
+	}
+
+	.navbar-brand {
+		font-size: 0.7em;
+	}
+
+	/*INDEX*/
+	.carousel-caption{
+		display: block !important;
+	}
+
+	.carousel.pointer-event{
+		padding-top: 40px;
+	}
+
+	.btnReserverIndex {
+   		margin-top: 15px;
+    	margin-bottom: 15px;
+	}
+
+	.btn {
+	    padding-top: 8px;
+	    padding-bottom: 8px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	    font-size: 0.8em;
+	}
+
+	.divTxtPresentationImgHotel{
+		display: block !important;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	    margin-bottom: 40px;	
+	}
+
+	.divTxtPresentation{
+		flex: 0 0 100%;
+    	max-width: 100%;
+	}
+
+	.divTxtPresentation h2{
+		font-size: 1.5em;
+	}
+
+	.divTxtPresentation p{
+		font-size: 0.8em;
+		margin-top: -15px;
+		margin-left: 20px;
+    	margin-right: 20px;
+	}
+
+	.divImgHotel{
+		flex: 0 0 100%;
+    	max-width: 100%;
+	}
+
+    .divImgHotel img{
+		width: 80%!important;
+    	margin: auto;
+    	padding-top: 10px;
+	}
+
+	.divIcone {
+    	margin-bottom: 30px;
+	}
+
+	.divIcone1, .divIcone2 {
+    	margin-top: 15px;
+    	margin-bottom: 15px;
+	}
+
+	.divIcone1 p, .divIcone2 p{
+    	font-size: 0.8em;
+    	padding-top: 10px;
+    	margin-bottom: 10px;
+	}
+
+	.icone {
+    	width: 40px;
+	}
+
+	/*TARIF*/
+
+	.titreTarifs {
+	    padding-top: 100px;
+	    margin-bottom: 30px;
+	}
+
+	.divAvertPaiement{
+    	margin-bottom: 40px;
+	}
+
+	.divAvertPaiement p {
+    	font-size: 0.8em;
+	}
+
+	.divLigne1TextePhoto, .divLigne2TextePhoto, .divLigne3TextePhoto, .divLigne4TextePhoto{
+		display: block;
+	}
+
+	.divLigne1Texte, .divLigne1Photo, .divLigne2Texte, .divLigne2Photo, .divLigne3Texte, .divLigne3Photo, .divLigne4Texte, .divLigne4Photo{
+		flex: 0 0 100%;
+    	max-width: 100%;
+    	padding-top: 10px;
+	}
+
+	.divLigne1Texte p, .divLigne2Texte p, .divLigne3Texte p, .divLigne4Texte p{
+		font-size: 0.8em;
+		margin-bottom: 5px;
+	}
+
+	.divInfoComplementaire ul li{
+		font-size: 0.8em;
+	}
+
+	.divCompteRecquis {
+    	margin-top: 30px;
+    	margin-bottom: 30px;
+	}
+
+	.divCompteRecquis p{
+    	font-size: 0.8em;
+	}
+
+	.divCompteRecquis h5{
+    	font-size: 1em;
+	}
+
+	/*FOOTER CONTACT*/
+
+	.divTxtBoutonContact h3{
+		font-size: 1.5em;
+	}
+
+	.btnContact {
+    	margin-top: 10px;
+    	margin-bottom: 30px;
+	}
+
+	/*CONTACT*/
+	.titreContact{
+	    padding-top: 100px;
+	    margin-bottom: 30px;
+	}
+
+	.divInfoHotelMap{
+		display: block;
+	}
+
+	.divInfoHotel, .divMap{
+		flex: 0 0 100%;
+    	max-width: 100%;
+	}
+
+	.divInfoHotel h3{
+		padding-top: 30px;
+		margin-bottom: 20px;
+	}
+
+	.divInfoHotel p{
+		margin-bottom: 10px;
+	}
+
+	.divFormulaireContact{
+		flex: 0 0 66.666666%;
+    	max-width: 66.666666%;
+	}
+
+	/*SIGN IN*/
+	.titreConnexion{
+		padding-top: 100px;
+	    margin-bottom: 30px;
+	}
+
+	/*SIGN UP*/
+	.titreInscription{
+		padding-top: 100px;
+	    margin-bottom: 30px;
+	}
+
+	.divFormulaireInscriptionDejaCompte{
+		display: block;
+	}
+
+	.divFormulaireInscription, .divDejaCompte{
+		flex: 0 0 100%;
+    	max-width: 100%;
+	}
+
+	.divNom, .divNumero, .divMdp {
+    	margin-right: 100px;
+	}
+
+	.divDejaCompte{
+		margin-bottom: 30px;
+	}
+
+	/*MON COMPTE*/
+	.titreMonCompte{
+		padding-top: 100px;
+	    margin-bottom: 30px;
+	}
+
+	.divInfoClientMonCompte, .divHistoriqueReservation{
+		margin-bottom: 40px;
+	}
+
+	/*EDITION*/
+	.divFormulaireEdition {
+    	padding-top: 100px;
+	}
+
+	.divCivilite select{
+		flex: 0 0 25%;
+   	 	max-width: 25%;
+	}
+
+	/*RESERVER*/
+	.titreReservation{
+		padding-top: 100px;
+	    margin-bottom: 30px;
+	}
+
+	.divSeCoOuInscri {
+    	padding-top: 100px;
+	}
+
+	.divFormulaireReservationRecapActualise form{
+		flex: 0 0 75%;
+    	max-width: 75%;
+	}
+
+	/*RECAP RESERVATION*/
+	.titreRecap{
+		padding-top: 100px;
+	    margin-bottom: 30px;
+	}
+
+	.divInfoClientNumTelEmail {
+		flex: 0 0 50%;
+    	max-width: 50%;
+	}
+
+	.divInfoReservationDateArriveDepart, .divInfoReservationTypeChambreNbrPersonne {
+    	flex: 0 0 75%;
+    	max-width: 75%;
+	}
+
+	.divInfoReservationPetitDej{
+		flex: 0 0 50%;
+    	max-width: 50%;
+	}  
+
+	/*RESULTAT RESERVATION*/
+	.titreReservationEnregistre, .titreErreurReservation{
+		padding-top: 100px;
+	    margin-bottom: 30px;
+	}
+
+	/*MENTIONS LEGALES*/
+	.titreMentionsLegales {
+		padding-top: 100px;
+	    margin-bottom: 30px;
+	}
+
+	/*FOOTER*/
+	.divFooter p {
+		font-size: 0.8em;
+	}
+}
+
+/*----------------------------------------------------- 615 -----------------------------------------------------*/
+@media (max-width: 615px) {
+	/*INDEX*/
+	.carousel-caption{
+		display: block !important;
+		padding-top: 5px;
+    	padding-bottom: 15px;
+	}
+
+	.carousel-caption h3{
+		font-size: 0.8rem;
+	}
+
+	.carousel-caption p{
+		font-size: 0.5rem;
+	}
+
+	.carousel.pointer-event{
+		padding-top: 40px;
+	}
+}
+
+/*----------------------------------------------------- 576 -----------------------------------------------------*/
+@media (max-width: 576px) {
+	/*MENU*/
+	.logoHotelDMD{
+		width: 50px;
+	}
+
+	.navbar-brand {
+		font-size: 0.6em;
+	}
+
+	/*INDEX*/
+	.carousel-caption{
+		display: block !important;
+	}
+
+	.carousel-caption h3{
+		font-size: 1rem;
+	}
+
+	.carousel-caption p{
+		font-size: 0.6rem;
+	}
+
+	.navbar-light .navbar-toggler{
+		padding-top: 3px;
+		padding-bottom: 3px;
+		padding-right: 9px;
+		padding-left: 9px;
+	}
+
+	.navbar-toggler-icon{
+		width: 15px;
+		height: 15px;
+	}
+
+	.carousel.pointer-event{
+		padding-top: 40px;
+	}
+}
+
+/*----------------------------------------------------- 426 -----------------------------------------------------*/
+@media (max-width: 426px) {
+	/*MENU*/
+	.navbar-collapse {
+    	font-size: 0.7em;
+	}
+
+	/*INDEX*/
+	.carousel-caption{
+    	bottom: 10px;
+	}
+
+	.carousel-caption h3{
+		font-size: 0.7rem;
+		margin-bottom: 7px;
+	}
+
+	.carousel-caption p{
+		font-size: 0.3rem;
+	}
+
+	.navbar-light .navbar-toggler{
+		padding-top: 1px;
+		padding-bottom: 1px;
+		padding-right: 6px;
+		padding-left: 6px;
+	}
+
+	.navbar-toggler-icon{
+		width: 10px;
+		height: 10px;
+	}
+
+	.carousel-indicators{
+		bottom: -10px;
+	}
+
+	.carousel.pointer-event{
+		padding-top: 40px;
+	}
+
+	.btnReserverIndex {
+   		margin-top: 12px;
+    	margin-bottom: 12px;
+	}
+
+	.btn {
+	    padding-top: 6px;
+	    padding-bottom: 6px;
+	    padding-left: 17px;
+	    padding-right: 17px;
+	    font-size: 0.7em;
+	}
+
+	.divTxtPresentationImgHotel{
+		display: block !important;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	    margin-bottom: 35px;	
+	}
+
+	.divTxtPresentation{
+		flex: 0 0 100%;
+    	max-width: 100%;
+	}
+
+	.divTxtPresentation h2{
+		font-size: 1.2em;
+	}
+
+	.divTxtPresentation p{
+		font-size: 0.6em;
+		margin-top: -20px;
+		margin-left: 20px;
+    	margin-right: 20px;
+	}
+
+	.divImgHotel{
+		flex: 0 0 100%;
+    	max-width: 100%;
+	}
+
+	.divIcone {
+    	margin-bottom: 25px;
+	}
+
+	.divIcone1, .divIcone2 {
+    	margin-top: 10px;
+    	margin-bottom: 10px;
+	}
+
+	.divIcone1 p, .divIcone2 p{
+    	font-size: 0.6em;
+    	padding-top: 6px;
+    	margin-bottom: 0;
+	}
+
+	.icone {
+    	width: 35px;
+	}
+
+	/*TARIF*/
+
+	.titreTarifs {
+	    padding-top: 70px;
+	    margin-bottom: 20px;
+	    font-size: 2em;
+	}
+
+	.divAvertPaiement{
+    	margin-bottom: 30px;
+	}
+
+	.divAvertPaiement p {
+    	font-size: 0.6em;
+	}
+
+	.titreTarifChambre{
+		font-size: 1.2em;
+		margin-bottom: 15px;
+	} 
+
+	.divLigne1TextePhoto, .divLigne2TextePhoto, .divLigne3TextePhoto, .divLigne4TextePhoto{
+		margin-bottom: 30px;
+	}
+
+	.divLigne1Texte, .divLigne1Photo, .divLigne2Texte, .divLigne2Photo, .divLigne3Texte, .divLigne3Photo, .divLigne4Texte, .divLigne4Photo{
+    	padding-top: 7px;
+	}
+
+	.divLigne1Texte p, .divLigne2Texte p, .divLigne3Texte p, .divLigne4Texte p{
+		font-size: 0.6em;
+		margin-bottom: 3px;
+	}
+
+	.titreInfoComplementaire{
+		font-size: 1.2em;
+		margin-bottom: 15px;
+	}
+
+	.divInfoComplementaire ul{
+    	padding-left: 15px;		
+	}
+
+	.divInfoComplementaire ul li{
+		font-size: 0.6em;
+	}
+
+	.divCompteRecquis {
+    	margin-top: 20px;
+    	margin-bottom: 20px;
+	}
+
+	.divCompteRecquis p{
+    	font-size: 0.6em;
+	}
+
+	.divCompteRecquis h5{
+    	font-size: 0.8em;
+	}
+
+	/*CONTACT*/
+	.titreContact{
+	    padding-top: 70px;
+	    margin-bottom: 20px;
+	    font-size: 2em;
+	}
+
+	.divInfoHotel h3{
+		padding-top: 20px;
+		margin-bottom: 15px;
+		font-size: 1.2em;
+	}
+
+	.divInfoHotel p{
+		margin-bottom: 7px;
+		font-size: 0.8em;
+	}
+
+	#mapid {
+    	height: 250px;
+	}
+
+	.divFormulaireContact{
+		flex: 0 0 83.333333%;
+    	max-width: 83.333333%;
+    	margin-bottom: 30px;
+	} 
+
+	.divFormulaireContact h3{
+		font-size: 1.5em;
+	}
+
+	.divNomPrenomContact{
+		display: block;
+	}
+
+	.divNomContact, .divPrenomContact{
+		flex: 0 0 100%;
+    	max-width: 100%;
+    	margin-bottom: 20px;
+	}
+
+	/*SIGN IN*/
+	.titreConnexion{
+		padding-top: 70px;
+	    margin-bottom: 20px;
+	    font-size: 2em;
+	}
+
+	.divFormulaireConnexion{
+		padding: 20px;
+		margin-bottom: 30px;
+	}
+
+	.divFormulaireConnexionPasEncoreInscrit{
+		display: block;
+	} 
+
+	.divFormulaireConnexion, .divPasEncoreInscrit{
+		flex: 0 0 100%;
+    	max-width: 100%;
+	}
+
+	/*SIGN UP*/
+	.titreInscription{
+		padding-top: 70px;
+	    margin-bottom: 20px;
+	    font-size: 2em;
+	}
+
+	.divNomPrenom, .divNumeroEmail, .divMdpConfirmerMdp{
+		display: block;
+	}
+
+	.divNom, .divNumero, .divMdp{
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+
+	.divNom input, .divPrenom input, .divNumero input, .divEmail input, .divMdp input, .confirmerMdp input{
+		width: 100%;
+	}
+
+	.divCivilite select{
+		flex: 0 0 33.333333%;
+    	max-width: 33.333333%;
+	}
+
+	.divFormulaireInscription{
+		margin-bottom: 30px;
+	}
+
+	/*MON COMPTE*/
+	.titreMonCompte{
+		padding-top: 70px;
+	    margin-bottom: 20px;
+	    font-size: 2em;
+	}
+
+	.divInfoClientMonCompte, .divHistoriqueReservation{
+		margin-bottom: 30px;
+	}
+
+	.divInfoClientMonCompte h3, .titreHistoriqueReservation {
+		font-size: 1.5em;
+	}
+
+	.divInfoClientMonCompte p{
+		margin-bottom: 5px;
+		font-size: 1em;
+	}
+
+	.divHistoriqueReservation table{
+		font-size: 1em;
+	}
+
+	/*EDITION*/
+	.divFormulaireEdition {
+    	padding-top: 75px;
+	}
+
+	/*RESERVER*/
+	.titreReservation{
+		padding-top: 70px;
+	    margin-bottom: 20px;
+	    font-size: 2em;
+	}
+
+	.divSeCoOuInscri {
+    	padding-top: 75px;
+	}
+
+	.divSeCoOuInscri h3{
+    	font-size: 1em;
+	}
+
+	.divBtnSeCoOuInscri{
+		font-size: 0.8em;
+		margin-top: 40px;
+	}
+
+	.divDateArriveDepart{
+		display: block;
+	}
+
+	.divDateArrive, .divDateDepart {
+		flex: 0 0 100%;
+    	max-width: 100%;
+	}
+
+	.divDateArrive{
+		margin-bottom: 30px;
+	}
+
+	.divRappelPaiement{
+		font-size: 0.8em;
+	    margin-bottom: 30px;	
+	}
+
+	.divFormulaireReservationRecapActualise{
+		padding: 10px;
+	}
+
+	.divFormulaireReservationRecapActualise form{
+		padding: 10px;
+		min-width: 100%;
+		font-size: 0.8em;
+	}
+
+	.divDateArrive input, .divDateDepart input{
+		min-width: 100%;
+	}
+
+	/*RECAP RESERVATION*/
+	.titreRecap{
+		padding-top: 70px;
+	    margin-bottom: 20px;
+	    font-size: 2em;
+	}
+
+	.divInfoClient, .divInfoReservation {
+		padding: 15px;
+		margin-bottom: 30px;
+	}
+
+	.divInfoClient h3, .divInfoReservation h3{
+		font-size: 1.2em;
+	}
+
+	.divInfoClient p, .divInfoReservation p{
+		font-size: 0.8em;
+	}
+
+	.divInfoClientNomPrenom {
+		flex: 0 0 75%;
+    	max-width: 75%;
+	}
+
+	.divInfoClientNumTelEmail {
+		flex: 0 0 75%;
+    	max-width: 75%;
+	}
+
+	.divInfoReservationDateArriveDepart, .divInfoReservationTypeChambreNbrPersonne {
+    	flex: 0 0 91.666666%;
+    	max-width: 91.666666%;
+	}
+
+	.divInfoReservationPetitDej{
+		flex: 0 0 75%;
+    	max-width: 75%;
+	} 
+
+	/*RESULTAT RESERVATION*/
+	.titreReservationEnregistre, .titreErreurReservation {
+		padding-top: 70px;
+	    margin-bottom: 20px;
+	    font-size: 1.9em;
+	}
+
+	.divSuccesReservation, .divErreurReservation {
+		margin-bottom: 30px;	
+	}
+
+	.divSuccesReservation h3{
+		font-size: 1.2em;
+	}
+
+	.divSuccesReservation p, .divErreurReservation p{
+		font-size: 0.8em;
+	}
+
+	/*MENTIONS LEGALES*/
+	.titreMentionsLegales {
+		padding-top: 70px;
+	    margin-bottom: 20px;
+	    font-size: 2em;
+	}
+
+	.divMentionsLegales {
+		font-size: 0.8em;
+	}
+
+	.divMentionsLegales h2{
+		font-size: 2em;
+	}
+
+	/*FOOTER*/
+	.divTxtBoutonContact h3{
+		font-size: 1.2em;
+	}
+
+	.btnContact {
+    	margin-top: 7px;
+    	margin-bottom: 25px;
+	}
+
+	.divFooter p {
+		font-size: 0.5em;
+		margin-bottom: 5px;
+	}
+}
+
+/*----------------------------------------------------- 375 -----------------------------------------------------*/
+@media (max-width: 375px) {
+	/*MENU*/
+	.navbar-collapse {
+    	font-size: 0.6em;
+	}
+
+	/*INDEX*/
+	.carousel-caption{
+		bottom: 10px;
+	}
+
+	.carousel-caption h3{
+		font-size: 0.6rem;
+		margin-bottom: 5px;
+	}
+
+	.carousel-caption p{
+		font-size: 0.2rem;
+	}
+
+	.carousel-indicators{
+		bottom: -10px;
+	}
+
+	.carousel.pointer-event{
+		padding-top: 40px;
+	}
+
+	.btnReserverIndex {
+   		margin-top: 10px;
+    	margin-bottom: 10px;
+	}
+
+	.btn {
+	    padding-top: 5px;
+	    padding-bottom: 5px;
+	    padding-left: 15px;
+	    padding-right: 15px;
+	    font-size: 0.6em;
+	}
+
+	.divTxtPresentationImgHotel{
+		display: block !important;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	    margin-bottom: 30px;	
+	}
+
+	.divTxtPresentation{
+		flex: 0 0 100%;
+    	max-width: 100%;
+	}
+
+	.divTxtPresentation h2{
+		font-size: 1em;
+	}
+
+	.divTxtPresentation p{
+		font-size: 0.5em;
+		margin-top: -20px;
+		margin-left: 20px;
+    	margin-right: 20px;
+	}
+
+	.divImgHotel{
+		flex: 0 0 100%;
+    	max-width: 100%;
+	}
+
+	.divIcone {
+    	margin-bottom: 20px;
+	}
+
+	.divIcone1, .divIcone2 {
+    	margin-top: 10px;
+    	margin-bottom: 10px;
+	}
+
+	.divIcone1 p, .divIcone2 p{
+    	font-size: 0.5em;
+    	padding-top: 5px;
+    	margin-bottom: 0;
+	}
+
+	.icone {
+    	width: 30px;
+	}
+
+	/*TARIF*/
+
+	.titreTarifs {
+	    padding-top: 70px;
+	    margin-bottom: 15px;
+	    font-size: 1.6em;
+	}
+
+	.divAvertPaiement{
+    	margin-bottom: 20px;
+	}
+
+	.divAvertPaiement p {
+    	font-size: 0.5em;
+	}
+
+	.titreTarifChambre{
+		font-size: 1em;
+		margin-bottom: 13px;
+	}
+
+	.divLigne1TextePhoto, .divLigne2TextePhoto, .divLigne3TextePhoto, .divLigne4TextePhoto{
+		margin-bottom: 20px;
+	} 
+
+	.divLigne1Texte, .divLigne1Photo, .divLigne2Texte, .divLigne2Photo, .divLigne3Texte, .divLigne3Photo, .divLigne4Texte, .divLigne4Photo{
+    	padding-top: 6px;
+	}
+
+	.divLigne1Texte p, .divLigne2Texte p, .divLigne3Texte p, .divLigne4Texte p{
+		font-size: 0.5em;
+		margin-bottom: 2px;
+	}
+
+	.titreInfoComplementaire{
+		font-size: 1em;
+		margin-bottom: 10px;
+	}
+
+	.divInfoComplementaire ul{
+    	padding-left: 10px;		
+	}
+
+	.divInfoComplementaire ul li{
+		font-size: 0.5em;
+	}
+
+	.divCompteRecquis {
+    	margin-top: 15px;
+    	margin-bottom: 15px;
+	}
+
+	.divCompteRecquis p{
+    	font-size: 0.5em;
+    	margin-bottom: 10px;
+	}
+
+	.divCompteRecquis h5{
+    	font-size: 0.6em;
+	}
+
+	/*CONTACT*/
+	.titreContact{
+	    padding-top: 70px;
+	    margin-bottom: 15px;
+	    font-size: 1.6em;
+	}
+
+	.divInfoHotel h3{
+		padding-top: 15px;
+		margin-bottom: 10px;
+		font-size: 1em;
+	}
+
+	.divInfoHotel p{
+		margin-bottom: 5px;
+		font-size: 0.6em;
+	}
+
+	#mapid {
+    	height: 230px;
+	}
+
+	.divFormulaireContact{
+    	margin-bottom: 25px;
+	} 
+
+	.divFormulaireContact h3{
+		font-size: 1.2em;
+	}
+
+	.divFormulaireContact form{
+		font-size: 0.8em;
+	}
+
+	.divFormulaireContact form button{
+		font-size: 1em;
+	}
+
+	.divNomContact, .divPrenomContact{
+    	margin-bottom: 20px;
+	}
+
+	/*SIGN IN*/
+	.titreConnexion{
+		padding-top: 70px;
+	    margin-bottom: 15px;
+	    font-size: 1.6em;
+	}
+
+	.divFormulaireConnexion{
+		padding: 15px;
+		margin-bottom: 20px;
+	}
+
+	/*SIGN UP*/
+	.titreInscription{
+		padding-top: 70px;
+	    margin-bottom: 15px;
+	    font-size: 1.6em;
+	}
+
+	/*MON COMPTE*/
+	.titreMonCompte{
+		padding-top: 70px;
+	    margin-bottom: 15px;
+	    font-size: 1.6em;
+	}
+
+	.divInfoClientMonCompte, .divHistoriqueReservation{
+		margin-bottom: 20px;
+	}
+
+	.divInfoClientMonCompte h3, .titreHistoriqueReservation {
+		font-size: 1.3em;
+	}
+
+	.divInfoClientMonCompte p{
+		margin-bottom: 5px;
+		font-size: 0.8em;
+	}
+
+	.divHistoriqueReservation table{
+		font-size: 0.8em;
+	}
+
+	/*EDITION*/
+	.divFormulaireEdition {
+    	padding-top: 75px;
+    	font-size: 0.8em;
+	}
+
+	/*RESERVER*/
+	.titreReservation{
+		padding-top: 70px;
+	    margin-bottom: 15px;
+	    font-size: 1.6em;
+	}
+
+	.divSeCoOuInscri {
+    	padding-top: 70px;
+	}
+
+	.divSeCoOuInscri h3{
+    	font-size: 0.8em;
+	}
+
+	.divBtnSeCoOuInscri{
+		font-size: 0.6em;
+		margin-top: 30px;
+	}
+
+	.divDateArrive{
+		margin-bottom: 30px;
+	}
+
+	.divRappelPaiement{
+		font-size: 0.6em;
+	    margin-bottom: 20px;	
+	}
+
+	.divFormulaireReservationRecapActualise{
+		padding: 8px;
+	}
+
+	.divFormulaireReservationRecapActualise form{
+		padding: 8px;
+		min-width: 100%;
+		font-size: 0.6em;
+	}
+
+	.divDateArrive input, .divDateDepart input{
+		min-width: 100%;
+	}
+
+	/*RECAP RESERVATION*/
+	.titreRecap{
+		padding-top: 70px;
+	    margin-bottom: 15px;
+	    font-size: 1.6em;
+	}
+
+	.divInfoClient, .divInfoReservation {
+		padding: 10px;
+		margin-bottom: 20px;
+	}
+
+	.divInfoClient h3, .divInfoReservation h3{
+		font-size: 1em;
+	}
+
+	.divInfoClient p, .divInfoReservation p{
+		font-size: 0.6em;
+	}
+
+	/*RESULTAT RESERVATION*/
+	.titreReservationEnregistre, .titreErreurReservation {
+		padding-top: 70px;
+	    margin-bottom: 15px;
+	    font-size: 1.6em;
+	}
+
+	.divSuccesReservation, .divErreurReservation {
+		margin-bottom: 20px;	
+	}
+
+	.divSuccesReservation h3{
+		font-size: 1em;
+	}
+
+	.divSuccesReservation p, .divErreurReservation p{
+		font-size: 0.6em;
+	}
+
+	/*MENTIONS LEGALES*/
+	.titreMentionsLegales {
+		padding-top: 70px;
+	    margin-bottom: 15px;
+	    font-size: 1.6em;
+	}
+
+	.divMentionsLegales {
+		font-size: 0.6em;
+	}
+
+	.divMentionsLegales h2{
+		font-size: 1.8em;
+	}
+
+	/*FOOTER*/
+
+	.divTxtBoutonContact h3{
+		font-size: 1em;
+	}
+
+	.btnContact {
+    	margin-top: 5px;
+    	margin-bottom: 20px;
+	}
+
+	.divFooter p {
+		font-size: 0.4em;
+		margin-bottom: 5px;
+	}
+}
+
+/*----------------------------------------------------- 320 -----------------------------------------------------*/
+@media (max-width: 320px) {
+	/*MENU*/
+	.navbar-collapse {
+    	font-size: 0.5em;
+	}
+
+	/*INDEX*/
+	.carousel-caption{
+		bottom: 5px;
+	}
+
+	.carousel-caption h3{
+		font-size: 0.5rem;
+		margin-bottom: 0;
+	}
+
+	.carousel-caption p{
+		font-size: 0.2rem;
+	}
+
+	.carousel-indicators{
+		bottom: -12px;
+	}
+
+	.carousel.pointer-event{
+		padding-top: 40px;
+	}
+
+	.btnReserverIndex {
+   		margin-top: 10px;
+    	margin-bottom: 10px;
+	}
+
+	.btn {
+	    padding-top: 5px;
+	    padding-bottom: 5px;
+	    padding-left: 15px;
+	    padding-right: 15px;
+	    font-size: 0.5em;
+	}
+
+	.divTxtPresentationImgHotel{
+		display: block !important;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	    margin-bottom: 30px;	
+	}
+
+	.divTxtPresentation{
+		flex: 0 0 100%;
+    	max-width: 100%;
+	}
+
+	.divTxtPresentation h2{
+		font-size: 1em;
+	}
+
+	.divTxtPresentation p{
+		font-size: 0.5em;
+		margin-top: -20px;
+		margin-left: 20px;
+    	margin-right: 20px;
+	}
+
+	.divImgHotel{
+		flex: 0 0 100%;
+    	max-width: 100%;
+	}
+
+	.divIcone {
+    	margin-bottom: 20px;
+	}
+
+	.divIcone1, .divIcone2 {
+    	margin-top: 10px;
+    	margin-bottom: 10px;
+	}
+
+	.divIcone1 p, .divIcone2 p{
+    	font-size: 0.5em;
+    	padding-top: 5px;
+    	margin-bottom: 0;
+	}
+
+	.icone {
+    	width: 30px;
+	}
+
+	/*TARIF*/
+
+	.titreTarifs {
+	    padding-top: 60px;
+	    margin-bottom: 10px;
+	    font-size: 1.5em;
+	}
+
+	.divAvertPaiement{
+    	margin-bottom: 15px;
+	}
+
+	.divAvertPaiement p {
+    	font-size: 0.4em;
+	}
+
+	.titreTarifChambre{
+		font-size: 0.8em;
+		margin-bottom: 10px;
+	} 
+
+	.divLigne1TextePhoto, .divLigne2TextePhoto, .divLigne3TextePhoto, .divLigne4TextePhoto{
+		margin-bottom: 15px;
+	}
+
+	.divLigne1Texte, .divLigne1Photo, .divLigne2Texte, .divLigne2Photo, .divLigne3Texte, .divLigne3Photo, .divLigne4Texte, .divLigne4Photo{
+    	padding-top: 5px;
+	}
+
+	.divLigne1Texte p, .divLigne2Texte p, .divLigne3Texte p, .divLigne4Texte p{
+		font-size: 0.4em;
+		margin-bottom: 1px;
+	}
+
+	.titreInfoComplementaire{
+		font-size: 0.8em;
+		margin-bottom: 7px;
+	}
+
+	.divInfoComplementaire ul{
+    	padding-left: 7px;		
+	}
+
+	.divInfoComplementaire ul li{
+		font-size: 0.4em;
+	}
+
+	.divCompteRecquis {
+    	margin-top: 10px;
+    	margin-bottom: 10px;
+	}
+
+	.divCompteRecquis p{
+    	font-size: 0.4em;
+    	margin-bottom: 7px;
+	}
+
+	.divCompteRecquis h5{
+    	font-size: 0.5em;
+	}
+
+	/*CONTACT*/
+	.titreContact{
+	    padding-top: 60px;
+	    margin-bottom: 10px;
+	    font-size: 1.5em;
+	}
+
+	.divInfoHotel h3{
+		padding-top: 10px;
+		margin-bottom: 7px;
+		font-size: 0.8em;
+	}
+
+	.divInfoHotel p{
+		margin-bottom: 3px;
+		font-size: 0.5em;
+	}
+
+	#mapid {
+    	height: 200px;
+	}
+
+	.divFormulaireContact{
+    	margin-bottom: 20px;
+	} 
+
+	.divFormulaireContact h3{
+		font-size: 1em;
+	}
+
+	.divFormulaireContact form{
+		font-size: 0.6em;
+	}
+
+	.divNomContact, .divPrenomContact{
+    	margin-bottom: 20px;
+	}
+
+	/*SIGN IN*/
+	.titreConnexion{
+		padding-top: 60px;
+	    margin-bottom: 10px;
+	    font-size: 1.5em;
+	}
+
+	.divFormulaireConnexion{
+		padding: 10px;
+		margin-bottom: 15px;
+	}
+
+	/*MON COMPTE*/
+	.titreMonCompte{
+		padding-top: 60px;
+	    margin-bottom: 10px;
+	    font-size: 1.5em;
+	}
+
+	.divInfoClientMonCompte, .divHistoriqueReservation{
+		margin-bottom: 20px;
+	}
+
+	.divInfoClientMonCompte h3, .titreHistoriqueReservation {
+		font-size: 1.2em;
+	}
+
+	.divInfoClientMonCompte p{
+		margin-bottom: 4px;
+		font-size: 0.8em;
+	}
+
+	.divHistoriqueReservation table{
+		font-size: 0.8em;
+	}
+
+	/*EDITION*/
+	.divFormulaireEdition {
+    	padding-top: 70px;
+    	font-size: 0.6em;
+	}
+
+	.divCivilite select{
+		font-size: 0.8em;
+	}
+
+	/*RESERVER*/
+	.titreReservation{
+		padding-top: 60px;
+	    margin-bottom: 10px;
+	    font-size: 1.5em;
+	}
+
+	.divSeCoOuInscri {
+    	padding-top: 70px;
+	}
+
+	.divSeCoOuInscri h3{
+    	font-size: 0.6em;
+	}
+
+	.divBtnSeCoOuInscri{
+		font-size: 0.5em;
+		margin-top: 30px;
+	}
+
+	.divDateArrive{
+		margin-bottom: 30px;
+	}
+
+	.divRappelPaiement{
+		font-size: 0.5em;
+	    margin-bottom: 15px;	
+	}
+
+	.divFormulaireReservationRecapActualise{
+		padding: 6px;
+	}
+
+	.divFormulaireReservationRecapActualise form{
+		padding: 6px;
+		min-width: 100%;
+		font-size: 0.5em;
+	}
+
+	.divDateArrive input, .divDateDepart input{
+		min-width: 100%;
+	}
+
+	/*RECAP RESERVATION*/
+	.titreRecap{
+		padding-top: 60px;
+	    margin-bottom: 10px;
+	    font-size: 1.5em;
+	}
+
+	.divInfoClient, .divInfoReservation {
+		padding: 8px;
+		margin-bottom: 15px;
+	}
+
+	.divInfoClient h3, .divInfoReservation h3{
+		font-size: 0.8em;
+	}
+
+	.divInfoClient p, .divInfoReservation p{
+		font-size: 0.5em;
+	}
+
+	/*RESULTAT RESERVATION*/
+	.titreReservationEnregistre, .titreErreurReservation {
+		padding-top: 60px;
+	    margin-bottom: 10px;
+	    font-size: 1.5em;
+	}
+
+	.divSuccesReservation, .divErreurReservation {
+		margin-bottom: 15px;	
+	}
+
+	.divSuccesReservation h3{
+		font-size: 0.8em;
+	}
+
+	.divSuccesReservation p, .divErreurReservation p{
+		font-size: 0.5em;
+	}
+
+	/*MENTIONS LEGALES*/
+	.titreMentionsLegales {
+		padding-top: 60px;
+	    margin-bottom: 10px;
+	    font-size: 1.5em;
+	}
+
+	.divMentionsLegales {
+		font-size: 0.5em;
+	}
+
+	.divMentionsLegales h2{
+		font-size: 1.6em;
+	}
+
+	/*FOOTER*/
+
+	.divTxtBoutonContact h3{
+		font-size: 1em;
+	}
+
+	.btnContact {
+    	margin-top: 5px;
+    	margin-bottom: 20px;
+	}
+
+	.divFooter p {
+		font-size: 0.4em;
+		margin-bottom: 5px;
+	}
+}

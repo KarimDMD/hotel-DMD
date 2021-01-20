@@ -1,0 +1,692 @@
+html, body{
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+	background-color: white;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/*Pour tous les boutons*/
+.btn{
+	background-color: #D5D6D2;
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.btn:hover{
+	background-color: #FBE07A;
+	color: black;
+}
+
+/*BOLD*/
+.bold{
+	font-weight: bold;
+}
+
+/*--------------------------------------------- HEADER ---------------------------------------------*/
+header{
+	position: absolute;
+	width: 100%;
+	z-index: 99;
+	background-color: white;
+	box-shadow: 8px 0px 12px black;
+}
+
+/*positionnemnt élément à l'intérieur de la navbar*/
+.divNavbar{
+	display: flex;
+}
+
+/*centrer logo + accueil*/
+.divLogoHotelDMD{
+	display: flex;
+}
+
+/*taille logo*/
+.logoHotelDMD{
+	width: 100px;
+}
+
+.navItem{
+	text-decoration: none;
+	color: #212121;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 20px;
+}
+
+.navItem:hover{
+	text-decoration: none;
+	color: #FBE07A;
+}
+
+.divMenu1, .divMenu2{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+/*FIN HEADER*/
+
+main{
+	min-height: 100%;
+	position: relative;
+}
+
+/*--------------------------------------------- MAIN INDEX ---------------------------------------------*/
+
+/*description carousel*/
+.carousel-caption{
+	background-color: #FBE07A;
+	color: black;
+	border-radius: 100px;
+}
+
+.carousel-indicators li {
+	background-color: black;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	background-color: #FBE07A;
+}
+
+/*aligne bouton reserver*/
+.divBtnReserverIndex{
+	text-align: center;
+}
+
+/*marge en haut et bas du bouton reserver*/
+.btnReserverIndex{
+	margin-top: 50px;
+	margin-bottom: 50px; 
+}
+
+.divTxtPresentationImgHotel{
+	margin: auto;
+	padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 100px;
+    background-color: #D5D6D2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: .25rem;
+}
+
+.divTxtPresentation p{
+	text-align:center;
+	margin-left:50px; 
+	margin-right:50px;
+}
+
+.divImgHotel img{
+	border-radius: 30%;
+}
+
+.divIcone{
+	margin: auto;
+	background-color: #D5D6D2;
+	padding: 1px;
+	margin-bottom: 50px;
+	border-radius: .25rem;
+}
+
+.icone{
+	width: 50px;
+	padding-top: 15px;
+}
+
+.divIcone1, .divIcone2{
+	display: flex;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+
+/*FIN MAIN INDEX*/
+
+/*--------------------------------------------- MAIN SIGNIN ---------------------------------------------*/
+
+.titreConnexion{
+	padding-top: 150px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.divFormulaireConnexionPasEncoreInscrit{
+	display: flex;
+	margin: auto;
+	padding: 0
+}
+
+.divFormulaireConnexion{
+	background-color: #D5D6D2;
+	padding: 30px;
+	border-radius: .25rem;
+}
+
+.btnConnexion{
+	background-color: white;
+}
+
+.divPasEncoreInscrit{
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.divPasEncoreInscrit a{
+	text-decoration: none;
+	color: #212529;
+}
+
+/*FIN MAIN SIGNIN*/
+
+/*--------------------------------------------- MAIN SIGNUP ---------------------------------------------*/
+
+.titreInscription{
+	padding-top: 150px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.divFormulaireInscriptionDejaCompte{
+	display: flex;
+	margin: auto;
+	padding: 0;
+}
+
+.divFormulaireInscription{
+	background-color: #D5D6D2;
+	padding: 30px;
+	margin-bottom: 50px;
+	border-radius: .25rem;
+}
+
+.divCivilite{
+	margin-bottom: 20px;
+}
+
+.divNomPrenom, .divNumeroEmail, .divMdpConfirmerMdp{
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.divNom, .divNumero, .divMdp{
+	margin-right: 50px;
+}
+
+.btnInsctiption{
+	background-color: white;
+}
+
+.divDejaCompte{
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.divDejaCompte a{
+	text-decoration: none;
+	color: #212529;
+}
+
+/*FIN MAIN SIGNUP*/
+
+/*--------------------------------------------- MAIN BIENVENUE ---------------------------------------------*/
+
+.divBtnBienvenue{
+	text-align: center;
+}
+
+/*FIN MAIN BIENVENUE*/
+
+/*--------------------------------------------- MAIN EDITION ---------------------------------------------*/
+
+.divFormulaireEdition{
+	padding-top: 150px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.divFormulaireEdition form{
+	background-color: #D5D6D2; 	
+	padding: 30px;
+	border-radius: .25rem;
+}
+
+.divFormulaireEdition input{
+	background-color: white;
+}
+
+#toggle{
+	height:auto;
+	margin-top: 10px;
+}
+
+.divChangerMotdepasseToogle{
+	margin-bottom: 20px;
+}
+
+.divChangerMotdepasse{
+	display: flex;
+}
+
+.divMotdepasseActuel{
+	margin-right: 50px;
+}
+
+/*FIN MAIN EDITION*/
+
+/*--------------------------------------------- MAIN TARIFS ---------------------------------------------*/
+
+.titreTarifs{
+	padding-top: 150px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.divAvertPaiement{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 50px;
+	padding: 10px;
+	background-color: #D5D6D2;
+	border-radius: .25rem;
+}
+
+.divAvertPaiement p{
+	margin-bottom: auto; 
+	margin-top: auto;
+}
+
+.titreTarifChambre, .titreInfoComplementaire{
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.divLigne1TextePhoto, .divLigne2TextePhoto, .divLigne3TextePhoto, .divLigne4TextePhoto{
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	margin-bottom: 50px;
+	background-color: #D5D6D2;
+	border-radius: .25rem;
+}
+
+.divLigne1Texte, .divLigne2Texte, .divLigne3Texte, .divLigne4Texte{
+	text-align: center;
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+.divLigne1Photo, .divLigne2Photo, .divLigne3Photo, .divLigne4Photo{
+	padding: 0;
+}
+
+.divLigne1Photo img, .divLigne2Photo img, .divLigne3Photo img, .divLigne4Photo img{
+	width: 100%;
+	border-radius: .25rem;
+}
+
+.divInfoComplementaire{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #D5D6D2;
+	padding: 10px;
+	border-radius: .25rem;
+}
+
+.divInfoComplementaire ul{
+	margin-bottom: 0;
+}
+
+.divCompteRecquis{
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 70px;
+	margin-bottom: 70px;
+	padding: 10px;
+	background-color: #D5D6D2;
+	border-radius: .25rem;
+}
+
+.divCompteRecquis input{
+	background-color: white;
+}
+
+/*FIN MAIN TARIFS*/
+
+/*--------------------------------------------- MAIN CONTACT ---------------------------------------------*/
+
+.titreContact{
+	padding-top: 150px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.divInfoHotelMap{
+	display: flex;
+	margin: auto;
+	padding: 0; 
+	margin-bottom: 50px;
+	background-color: #D5D6D2;
+	border-radius: .25rem;
+}
+
+.divInfoHotel{
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding: 0;
+}
+
+.divInfoHotel h3{
+	margin-bottom: 30px;
+}
+
+.divMap{
+	padding: 0;
+}
+
+#mapid { 
+	height: 400px; 
+	border-radius: .25rem;
+}
+
+.divFormulaireContact{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	background-color: #D5D6D2;
+	padding: 30px;
+	border-radius: .25rem;
+}
+
+.divFormulaireContact h3{
+	margin-bottom: 20px;
+}
+
+.divNomPrenomContact{
+	display: flex;
+}
+
+.divBtnEnvoyer{
+	text-align: center;
+}
+
+.btnEnvoyer{
+	background-color: white;
+}
+
+.divNomPrenomContact, .divEmailContact, .divMessageContact{
+	margin-bottom: 20px;
+}
+
+.divNomPrenomContact p, .divEmailContact p, .divMessageContact p{
+	margin-bottom: -1px;
+}
+
+/*FIN MAIN CONTACT*/
+
+/*--------------------------------------------- MAIN RESERVATION ---------------------------------------------*/
+
+.titreReservation{
+	padding-top: 150px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.divRappelPaiement{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 50px;
+	padding: 10px;
+	background-color: #D5D6D2;
+	border-radius: .25rem;
+}
+
+.divRappelPaiement p{
+	margin-bottom: auto; 
+	margin-top: auto;
+}
+
+.divFormulaireReservationRecapActualise{
+	display: flex;
+	margin: auto;
+	margin-bottom: 50px;
+	padding: 30px;
+	background-color: #D5D6D2;
+	border-radius: .25rem;
+}
+
+.divFormulaireReservationRecapActualise form{
+	margin: auto;
+}
+
+.divDateArriveDepart{
+	margin-bottom: 30px;
+	display: flex;
+}
+
+.divTypeChambre, .divNbrPersonne, .divPetitDej{
+	margin-bottom: 30px;
+}
+
+.divNbrNuitAvantReservation, .divNbrNuitApresReservation, .divPromoApplique, .divPrix{
+	margin-bottom: 30px;
+}
+
+.nbrNuitAvantReservationP, .nbrNuitApresReservationP, .promoAppliqueP, .prixP{
+	margin: auto;
+	background-color: #E6E6E6;
+	padding: 10px;
+	border-radius: 30px;
+}
+
+.fsm{
+	font-size: 0.8em;
+	margin-top: -15px;
+}
+
+.divBtnValider{
+	margin: auto;
+	text-align: center;
+}
+
+.divBtnValider input{
+	background-color: white;
+}
+
+.divSeCoOuInscri{
+	padding-top: 150px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.divSeCoOuInscri h3{
+	text-align: center;
+}
+
+.divSeCoOuInscri a{
+	text-decoration: none;
+	color: #212529;
+}
+
+.divBtnSeCoOuInscri{
+	display: flex;
+	text-align: center;
+	margin-top: 50px;
+}
+
+/*FIN RESERVATION*/
+
+/*--------------------------------------------- MAIN RECAP RESERVATION ---------------------------------------------*/
+
+.titreRecap{
+	padding-top: 150px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.divInfoClient, .divInfoReservation{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	padding: 30px;
+	background-color: #D5D6D2;
+	border-radius: .25rem;
+}
+
+.divInfoClient h3, .divInfoReservation h3{
+	margin-bottom: 30px;
+}
+
+.divInfoClientCivilite, .divInfoClientNomPrenom, .divInfoClientNumTelEmail, .divInfoReservationDateArriveDepart, .divInfoReservationTypeChambreNbrPersonne{
+	display: flex;
+}
+
+.divInfoClient div, .divInfoReservation div{
+	margin-bottom: 15px;
+}
+
+.divBtnReserverAnnuler{
+	margin: auto;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.divBtnModifierInfoClient input, .divBtnModifierInfoReservation input{
+	background-color: white;
+}
+
+/*FIN RECAP RESERVATION*/
+
+/*--------------------------------------------- MAIN RESULTAT RESERVATION ---------------------------------------------*/
+
+.titreReservationEnregistre, .titreErreurReservation{
+	padding-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.divSuccesReservation, .divErreurReservation{
+	padding: 30px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #D5D6D2;
+	border-radius: .25rem;
+}
+
+.divSuccesReservation h1, .divErreurReservation h1{
+	margin-bottom: 30px;
+}
+
+.divBtnRetourAccueil{
+	margin: auto;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.divBtnRetourAccueil a{
+	text-decoration: none;
+	color: #212529;	
+}
+
+/*FIN RESULTAT RESERVATION*/
+
+/*--------------------------------------------- MAIN MON COMPTE ---------------------------------------------*/
+
+.titreMonCompte{
+	padding-top: 150px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.divInfoClientMonCompte, .divHistoriqueReservation, .divNuitCumule{
+	margin: auto;
+	margin-bottom: 80px;
+}
+
+.titreHistoriqueReservation{
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.tableHead{	
+	background-color: #A9A9A9;
+}
+
+.optionSupprimerCompte{
+	margin-bottom: 30px;
+}
+
+/*FIN MON COMPTE*/
+
+/*--------------------------------------------- MAIN MENTION LEGALES ---------------------------------------------*/
+
+.titreMentionsLegales{
+	padding-top: 150px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.divMentionsLegales{
+	margin: auto;
+	margin-bottom: 50px;
+	background-color: #D5D6D2;
+	padding: 30px;
+	border-radius: .25rem;
+}
+
+/*FIN MENTION LEGALES*/
+
+/*--------------------------------------------- FOOTER ---------------------------------------------*/
+
+.divTxtBoutonContact{
+	text-align: center;
+}
+
+.btnContact{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.btnContact a{
+	text-decoration: none;
+	color: #212529;	
+}
+
+.divFooter{
+	text-align: center;
+	background-color: #D5D6D2;
+}
+
+.mentionsLegales{
+	text-decoration: none;
+	color: #212529;
+}
+
+.mentionsLegales:hover{
+	color: #212529;
+}
+
+/*FIN FOOTER*/
